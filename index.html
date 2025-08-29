@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="fade-in">Hi, I'm a <span>Graphic Designer</span></h1>
+    <p class="fade-in">Specializing in Branding, Print & Digital Solutions</p>
+    <a href="#about" class="btn">Explore</a>
+    <audio id="clickSound" src="sound/explore.mp3"></audio> <!-- replace with your file -->
+
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      As a seasoned graphic designer with four years of experience and a thriving presence in field,
+      I bring a unique blend of creativity and technical expertise to the table. Proficient in Adobe
+      Photoshop, Illustrator, Premiere Pro, After Effects, Blender, Canva, and Figma, I craft compelling
+      designs that engage audiences. With a fresh perspective and passion for delivering quality work,
+      I ensure every project is handled with care and precision.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <audio id="hoverSound" src="sound/cork-pop-35952.mp3"></audio> <!-- Replace hover.mp3 with your file -->
+
+      <div class="skill-card">🎨 Graphic Designing</div>
+      <div class="skill-card">🗣 Spoken English</div>
+      <div class="skill-card">📱 Social Media Handling</div>
+      <div class="skill-card">💻 MS Office</div>
+      <div class="skill-card">📊 Strategic Decisions</div>
+    </div>
+
+    <h2>Tools I Use</h2>
+    <div class="skills-container">
+      <div class="skill-card">✏️ Adobe Illustrator</div>
+      <div class="skill-card">🎬 Adobe Premiere Pro</div>
+      <div class="skill-card">✨ Adobe After Effects</div>
+      <div class="skill-card">🎥 Blender</div>
+      <div class="skill-card">📌 Canva</div>
+      <div class="skill-card">🎨 Figma</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
